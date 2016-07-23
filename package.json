@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "A react bootstrap starter kit by Cent",
   "scripts": {
-    "start": "npm-run-all --parallel test:watch open:src",
+    "start": "npm-run-all --parallel test:watch open:src lint:watch",
     "open:src": "babel-node srcServer.js",
     "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.spec.js\"",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "lint": "node_modules/.bin/esw webpack.config.* src tools",
+    "lint:watch": "npm run lint -- --watch"
   },
   "author": "Innocent Amadi",
   "license": "MIT",
