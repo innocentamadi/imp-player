@@ -12,5 +12,12 @@ To contribute to it,
 4. Create your own branch.
 5. Make some improvement (any you choose)
 6. Commit your changes
+
 7. Push your changes to your branch in origin
-8. Raise a Pull Request
+8. Raise a Pull Request.
+
+Okay, that's a
+
+
+git fetch upstream
+7. Add the original repo as upstream (git remote add upstream https://github.com/andela-iamadi/react-test-app.git)
