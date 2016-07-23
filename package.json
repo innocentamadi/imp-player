@@ -5,7 +5,7 @@
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
     "start": "babel-node tools/distServer.js",
-    "open:src": "babel-node tools/srcServer.js",
+    "open:src": "./node_modules/.bin/babel-node tools/srcServer.js",
     "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.spec.js\"",
     "test:watch": "npm run test -- --watch",
     "lint": "node_modules/.bin/esw webpack.config.* src tools",
