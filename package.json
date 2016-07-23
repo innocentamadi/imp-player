@@ -34,9 +34,11 @@
     "bootstrap": "3.3.6",
     "express": "4.13.4",
     "jquery": "2.2.3",
+    "open": "0.0.5",
     "react": "15.0.2",
     "react-dom": "15.0.2",
-    "react-router": "2.4.0"
+    "react-router": "2.4.0",
+    "webpack": "1.13.0"
   },
   "devDependencies": {
     "colors": "1.1.2",
@@ -56,12 +58,10 @@
     "mocha": "2.4.5",
     "nock": "8.0.0",
     "npm-run-all": "1.8.0",
-    "open": "0.0.5",
     "react-addons-test-utils": "15.0.2",
     "rimraf": "2.5.2",
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
-    "webpack": "1.13.0",
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.10.0"
   },
