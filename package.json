@@ -4,7 +4,7 @@
   "description": "A react bootstrap starter kit by Cent",
   "scripts": {
     "prestart": "babel-node tools/startMessage.js",
-    "start": "npm-run-all --parallel test:watch open:src lint:watch",
+    "start": "babel-node tools/distServer.js",
     "open:src": "babel-node tools/srcServer.js",
     "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.spec.js\"",
     "test:watch": "npm run test -- --watch",
