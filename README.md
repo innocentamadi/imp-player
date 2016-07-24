@@ -1,5 +1,5 @@
 # react-test-app
-[![CircleCi passing](https://circleci.com/gh/andela-iamadi/react-test-app/tree/master.png?circle-token=:circle-token)
+[![CircleCi passing](https://circleci.com/gh/andela-iamadi/react-test-app/tree/master.png?circle-token=:circle-token)](https://circleci.com/gh/andela-iamadi/react-test-app/)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://react-te.herokuapp.com/)
 

@@ -21,7 +21,7 @@ var exposedProperties = ['window', 'navigator', 'document'];
 // Create our own DOM since react needs to get attached somewhere
 global.document = jsdom('');
 global.window = document.defaultView;
-Object.keys(document.defaultView).forEach((property) => {
+Object.keys(document.defaultView).forEach(function(property) {
   if (typeof global[property] === 'undefined') {
     exposedProperties.push(property);
     global[property] = document.defaultView[property];
