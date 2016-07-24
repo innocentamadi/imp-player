@@ -6,8 +6,8 @@ class ContactUs extends React.Component {
      return (
        <div className="jumbotron">
         <h1>Contact Us</h1>
-        <p>Please fill the form below to contact us</p>
-        <Link to="/" className="btn btn-primary btn-lg">Learn more</Link>
+        <p>Contact who? There's no one here :(</p>
+        <Link to="/" className="btn btn-default btn-lg">{'< Back home'}</Link>
        </div>
      )
    }
