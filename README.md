@@ -19,7 +19,9 @@ To contribute to it,
 7. Push your changes to your branch in origin.
 8. Raise a Pull Request.
 
-Okay, that's all there is to it, so let's go over some issues you might have
+Okay, that's all there is to it, so let's go over some issues you might have.
+
+If you're not so familiar with reac but will like to contribute, just go through [this tutorial](http://blog.cent.tech/learn-react-series-iii-dev-environment-like-you-mean-business/) and you should have most of the basics you need in no time!
 
 ### Add the original repository remote url
 

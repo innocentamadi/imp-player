@@ -6,6 +6,7 @@ process.env.NODE_ENV = 'test';
 // before our tests run.
 require('babel-register')();
 
+
 // Disable webpack-specific features for tests since
 // Mocha doesn't know what to do with them.
 require.extensions['.css'] = function () {return null;};
