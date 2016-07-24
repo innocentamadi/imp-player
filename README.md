@@ -21,7 +21,7 @@ To contribute to it,
 
 Okay, that's all there is to it, so let's go over some issues you might have.
 
-If you're not so familiar with reac but will like to contribute, just go through [this tutorial](http://blog.cent.tech/learn-react-series-iii-dev-environment-like-you-mean-business/) and you should have most of the basics you need in no time!
+If you're not so familiar with react but will like to contribute, just go through [this tutorial](http://blog.cent.tech/learn-react-series-iii-dev-environment-like-you-mean-business/) and you should have most of the basics you need in no time!
 
 ### Add the original repository remote url
 
