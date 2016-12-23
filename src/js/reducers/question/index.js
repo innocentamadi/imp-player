@@ -1,19 +1,10 @@
-import * as types from '../../actions/actionTypes';
-import * as storeHelpers from './storeHelpers';
-import * as initialState from '../initialState';
+import {combineReducers} from 'redux';
+import all from './questionReducer';
+import current from './navReducer';
 
-export default function questionReducer(state = initialState.questions, action) {
-  switch (action.type) {
-    case types.LOAD_QUESTIONS_SUCCESS:
-      return storeHelpers.loadQuestions(state, action.questions);
+const rootReducer = combineReducers({
+  all,
+  current
+});
 
-    case types.LOAD_QUESTION_SUCCESS:
-      return storeHelpers.updateQuestion(state, action.question);
-
-    case types.UPDATE_QUESTION_SUCCESS:
-      return storeHelpers.updateQuestion(state, action.question);
-
-    default:
-      return state;
-  }
-}
+export default rootReducer;

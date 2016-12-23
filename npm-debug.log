@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.0.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'test' ]
+2 info using npm@3.3.9
+3 info using node@v5.0.0
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle interactive-media-player@~pretest: interactive-media-player@
+6 silly lifecycle interactive-media-player@~pretest: no script for pretest, continuing
+7 info lifecycle interactive-media-player@~test: interactive-media-player@
+8 verbose lifecycle interactive-media-player@~test: unsafe-perm in lifecycle true
+9 verbose lifecycle interactive-media-player@~test: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/cent_amadi/Documents/Projects/redux/player/node_modules/.bin:/Users/cent_amadi/.rvm/gems/ruby-2.3.1/bin:/Users/cent_amadi/.rvm/gems/ruby-2.3.1@global/bin:/Users/cent_amadi/.rvm/rubies/ruby-2.3.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/cent_amadi/bin:/usr/local/bin:/Users/cent_amadi/bin:/usr/local/bin:/Users/cent_amadi/.rvm/gems/ruby-1.2.1/bin:/Users/cent_amadi/.rvm/gems/ruby-2.2.1@global/bin:/Users/cent_amadi/.rvm/rubies/ruby-2.2.1/bin:/usr/local/share/npm/bin:/Users/cent_amadi/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/cent_amadi/.rvm/bin:~/scripts
+10 verbose lifecycle interactive-media-player@~test: CWD: /Users/cent_amadi/Documents/Projects/redux/player
+11 silly lifecycle interactive-media-player@~test: Args: [ '-c',
+11 silly lifecycle   'mocha --reporter progress tools/testSetup.js "src/**/*.spec.js"' ]
+12 silly lifecycle interactive-media-player@~test: Returned: code: 3  signal: null
+13 info lifecycle interactive-media-player@~test: Failed to exec test script
+14 verbose stack Error: interactive-media-player@ test: `mocha --reporter progress tools/testSetup.js "src/**/*.spec.js"`
+14 verbose stack Exit status 3
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:233:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid interactive-media-player@
+16 verbose cwd /Users/cent_amadi/Documents/Projects/redux/player
+17 error Darwin 16.1.0
+18 error argv "/usr/local/Cellar/node/5.0.0/bin/node" "/usr/local/bin/npm" "run" "test"
+19 error node v5.0.0
+20 error npm  v3.3.9
+21 error code ELIFECYCLE
+22 error interactive-media-player@ test: `mocha --reporter progress tools/testSetup.js "src/**/*.spec.js"`
+22 error Exit status 3
+23 error Failed at the interactive-media-player@ test script 'mocha --reporter progress tools/testSetup.js "src/**/*.spec.js"'.
+23 error This is most likely a problem with the interactive-media-player package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     mocha --reporter progress tools/testSetup.js "src/**/*.spec.js"
+23 error You can get their info via:
+23 error     npm owner ls interactive-media-player
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
