@@ -10,6 +10,6 @@ function setup() {
 describe('visit the index route', () => {
   it('shows the home page', () => {
     const wrapper = setup(false);
-    expect(wrapper.find('h1').text()).toEqual('Fun test app');
+    expect(wrapper.find('h1').text()).toEqual('Questions app');
   });
 });

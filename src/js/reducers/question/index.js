@@ -1,11 +1,11 @@
-import types from '../../actions/actionTypes';
+import * as types from '../../actions/actionTypes';
 import * as storeHelpers from './storeHelpers';
-import initialState from '../initialState';
+import * as initialState from '../initialState';
 
 export default function questionReducer(state = initialState.questions, action) {
   switch (action.type) {
     case types.LOAD_QUESTIONS_SUCCESS:
-      return storeHelpers.loadQeustion(state, action.questions);
+      return storeHelpers.loadQuestions(state, action.questions);
 
     case types.LOAD_QUESTION_SUCCESS:
       return storeHelpers.updateQuestion(state, action.question);

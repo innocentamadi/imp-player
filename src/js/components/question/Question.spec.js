@@ -10,6 +10,6 @@ function setup(saving) {
 describe('visit Contact Us page', () => {
   it('shows the Contact page', () => {
     const wrapper = setup(false);
-    expect(wrapper.find('h1').text()).toEqual('Contact Us');
+    expect(wrapper.find('h1').text()).toEqual('Questions');
   });
 });
